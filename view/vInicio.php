@@ -3,6 +3,7 @@
     <div class="buttons-header-inicio">
         <?php echo ($imagenUsuario != null) ? '<img id="fotoPerfil" src = "data:image/png;base64,' . base64_encode($imagenUsuario) . '" alt="Foto de perfil"/>' : "<img id='fotoPerfil' src='webroot/media/imagen_perfil.png' alt='imagen_perfil'/>" ; ?>
         <form name="logout" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+            <input class="botones" type="submit" value="DETALLES" name="detalles" id="detalles">
             <button class="logout" type="submit" name='cerrarSesion'><?php echo $aLang[$_COOKIE['idioma']]['logoff']; ?></button>
         </form>
     </div>
