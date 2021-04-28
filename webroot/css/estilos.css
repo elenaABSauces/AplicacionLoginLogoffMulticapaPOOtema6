@@ -1,0 +1,192 @@
+
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+}
+
+/* -------- HEADER -------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #a85c82;
+    height: 50px;
+    font-family: 'Courier New',
+}
+
+header > h1 {
+    margin: auto 10px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.github>img{
+    width: 40px;
+}
+
+/* -------- MAIN -------- */
+
+main {
+    min-height: calc(100vh - 140px);
+    margin: 20px; 
+    font-family: 'Courier New';
+}
+/* -------- FOOTER -------- */
+
+footer {
+    height: 50px;
+    text-align: center;
+    background-color:#a85c82;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Courier New';
+    width: 100vw;
+}
+footer > address {
+    font-size: 20px;
+    padding: 10px 10px;
+
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.flex-container-align-item-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button{
+    font-size: 1.2rem;
+    background-color: rgb(178, 218, 231);
+    border-radius: 20px;
+    border: 2px solid #blue;
+}
+
+
+.required{
+    background-color: rgb(178, 218, 231);
+}
+
+form[name="login"],form[name="singup"],form[name="editarPerfil"]{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 6px solid #446688;
+    padding: 40px;
+    border-radius: 50px;
+}
+form[name="login"],form[name="singup"],form[name="editarPerfil"]{
+    min-width:200px;
+}
+form[name="login"] *,form[name="singup"] *,form[name="editarPerfil"] *{
+    font-size:1.5rem;
+}
+
+form[name="login"] div *,form[name="singup"] div *,form[name="editarPerfil"] div *{
+    display: block;
+    margin:5px;
+    text-align: center
+}
+
+input[name="IniciarSesion"]{
+    margin-left:auto;
+}
+
+form[name="login"] input,form[name="singup"] input,form[name="editarPerfil"] input{
+    width:160px;
+    border: none;
+    border-bottom: 3px solid #blue;
+    border-radius: 5px;
+    margin: auto;
+}
+
+form[name="login"] span, form[name="singup"] span, form[name="editarPerfil"] span{
+    font-size: 1rem; 
+}
+
+input[readonly=""]{
+    background: none;
+}
+
+.logout{
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 7px;
+    color: #446688;
+    font-weight: bold;
+    border: 4px solid white;
+    margin-right: 6px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+}
+
+.idioma{
+    font-size: 1.3rem;
+    border: none;
+    background: none;
+    color: rgb(39, 39, 145);
+} 
+
+form[name="formularioIdioma"]{
+    position: absolute;
+    top: 52px;
+    right: 0;
+}
+
+#fotoPerfil{
+    width: 50px;
+}
+
+#borrarUsuario{
+    background-color: rgb(178, 218, 231);
+    border-radius: 20px;
+    border: 2px solid #446688;
+}
+
+
+.main-container-inicio{
+    font-size: 2rem;
+    text-align: center;
+}
+.buttons-header-inicio {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.buttons-header-inicio *{
+    margin: 6px 5px auto 5px;
+}
+
+.buttons-header-inicio #fotoPerfil{
+    margin: 0 !important;
+}
+.button-inicio{
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 7px;
+    color: #446688;
+    font-weight: bold;
+    border: 4px solid white;
+    margin-right: 6px;
+}
