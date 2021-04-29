@@ -16,7 +16,7 @@
             <div>
                 <div class="name">Elena de Antón &copy; 2020/21 <em>I.E.S Los Sauces (Benavente)    </em>
                     
-                <a href="https://github.com/elenaABSauces/proyectoTema3" target="_blank"><img src="webroot/images/Github.png" widht="20" height="20" /></a>
+                <a href="https://github.com/elenaABSauces/AplicacionLoginLogoffMulticapaPOOtema6" target="_blank"><img src="webroot/images/Github.png" widht="20" height="20" /></a>
                 
             </div>
         </footer>

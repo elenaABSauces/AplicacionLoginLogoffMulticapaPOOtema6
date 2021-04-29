@@ -1,11 +1,5 @@
-<header class="hdetalle">
-        <form  name="formulario" action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
-            <button type="submit" name='volver' value="volver" class="volver">VOLVER</button>
-        </form>
-    <h1 class="h1detalle">Estas viendo las variables superglobales.</h1>
-
-</header>
-        <h3 class="h3detalle">$_COOKIE</h3>
+<div>
+   <h3 class="h3detalle">$_COOKIE</h3>
         <div>  
         <?php foreach ($_COOKIE as $parm => $value)  echo "<b>$parm </b> → '$value'<br>"; ?>
         </div>
@@ -71,3 +65,7 @@
             }
         ?>
         </div>
+    <form name="logout" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+        <button type="submit" name='volver'>Volver</button>
+    </form>
+</div>

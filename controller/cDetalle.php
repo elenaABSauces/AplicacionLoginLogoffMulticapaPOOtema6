@@ -1,16 +1,19 @@
 <?php
-    if(!isset($_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'])){                // Si el usuario no se ha logueado
-        header('Location: index.php');                                          //Recargamos el index
-        exit;
-    }
+//Si no hay una sesiÃ³n iniciada te manda al Login
+if(!isset($_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'])){ 
+    header('Location: index.php');
+    exit;
+}
+//Si se ha pulsado Cancelar
+if (isset($_REQUEST['volver'])) {
+    //Guardamos en la variable de sesiÃ³n 'pagina' la ruta del controlador del login
+    $_SESSION['paginaEnCurso'] = $controladores['inicio'];
+    header('Location: index.php');
+    exit;
+}
 
-    if(isset($_REQUEST['volver'])){                                             //Si el usuario pulsa el boton de volver
-        $_SESSION['paginaEnCurso'] = $controladores['inicio'];                  //Cargamos el controlador de inicio en PaginaenCurso
-        header('Location: index.php');                                          //Redirigimos al usuario al programa de nuevo
-        exit;
-    }
-  
-    $vistaEnCurso = $vistas['detalle'];                                         //Cargamos la vista de detalles
-    
-    require_once $vistas['layout'];                                             //Cargamos el layout
+//Guardamos en la variable vistaEnCurso la vista que queremos implementar
+$vistaEnCurso = $vistas['detalle']; 
+
+require_once $vistas['layout'];                                            //Cargamos el layout
 ?>
