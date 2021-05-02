@@ -1,12 +1,13 @@
 <?php
-//Si no hay una sesiÃ³n iniciada te manda al Login
+$_SESSION['paginaAnterior'] = $controladores['detalle'];
+//Si no hay una sesión iniciada te manda al Login
 if(!isset($_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'])){ 
     header('Location: index.php');
     exit;
 }
 //Si se ha pulsado Cancelar
 if (isset($_REQUEST['volver'])) {
-    //Guardamos en la variable de sesiÃ³n 'pagina' la ruta del controlador del login
+    //Guardamos en la variable de sesión 'pagina' la ruta del controlador del login
     $_SESSION['paginaEnCurso'] = $controladores['inicio'];
     header('Location: index.php');
     exit;

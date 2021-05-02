@@ -1,7 +1,7 @@
 <header>
     <h1><?php echo $aLang[$_COOKIE['idioma']]['title']; ?></h1>
 </header>
-<main class="flex-container-align-item-center">
+<main>
     
     <form name="singup" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 

@@ -1,7 +1,7 @@
 <header>
     <h1>Login</h1>
 </header>
-<main class="flex-container-align-item-center">
+<main>
     <form name="formularioIdioma" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <button <?php echo ($_COOKIE['idioma'] == "es") ? "style='color: black;'" : null; ?> class="idioma " type="submit" name="idiomaElegido" value="es"> Castellano</button>
         <button <?php echo ($_COOKIE['idioma'] == "en") ? "style='color: black;'" : null; ?> class="idioma" type="submit" name="idiomaElegido" value="en"> English</button>
