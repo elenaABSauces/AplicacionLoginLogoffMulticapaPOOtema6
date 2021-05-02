@@ -9,7 +9,12 @@ $controladores = [
     "login" => "controller/cLogin.php",
     "inicio" => "controller/cInicio.php",
     "registro" => "controller/cRegistro.php",
-    "detalle" => "controller/cDetalle.php"
+    "detalle" => "controller/cDetalle.php",
+    "editar"=> "controller/cEditar.php",
+    "editar" => "controller/cEditar.php",
+    "cambiarPassword" => "controller/cCambiarPassword.php",
+    "borrarCuenta" => "controller/cBorrarCuenta.php",
+    "wip" => "controller/cWIP.php"
 ];
 
 $vistas = [
@@ -17,6 +22,10 @@ $vistas = [
     "login" => "view/vLogin.php",
     "inicio" => "view/vInicio.php",
     "registro" => "view/vRegistro.php",
-    "detalle" => "view/vDetalle.php"
+    "detalle" => "view/vDetalle.php",
+    "editar" => "view/vEditar.php",
+    "cambiarPassword" => "view/vCambiarPassword.php",
+    "borrarCuenta" => "view/vBorrarCuenta.php",
+    "wip" => "view/vWIP.php"
 ];
 ?>

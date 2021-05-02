@@ -24,4 +24,13 @@ Aplicación con control de acceso con sesiones y utilización de cookies
 - MySQL 8.0
 
 **1&1**
+<<<<<<< HEAD
 - http://daw216.ieslossauces.es/AplicacionLoginLogoffMulticapaPOOtema6/index.php
+=======
+<<<<<<< HEAD
+- http://daw216.ieslossauces.es/AplicacionLoginLogoffMulticapaPOOtema6/index.php
+
+=======
+- http://daw216.ieslossauces.es/AplicacionLoginLogoffMulticapaPOOtema6/index.php
+>>>>>>> master
+>>>>>>> development
