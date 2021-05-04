@@ -21,5 +21,8 @@
         <button class="logout" type="submit" name='Aceptar'>Aceptar</button>
         <button class="logout" type="submit" name='Cancelar'>Cancelar</button>
     </fieldset>
+    <form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method = "post">
+    <button class="logout" type="submit" name='Volver'>Volver</button>
+    </form>
 </form>
 

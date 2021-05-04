@@ -1,5 +1,6 @@
+
 <header>
-    <h1><?php echo $aLang[$_COOKIE['idioma']]['title']; ?></h1>
+    
 </header>
 <main>
     

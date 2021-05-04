@@ -33,7 +33,10 @@
     </div>
     <div>
         <button class="logout" type="submit" name='Aceptar'>Aceptar</button>
-                <button class="logout" type="submit" name='Cancelar'>Cancelar</button>
+        <button class="logout" type="submit" name='Cancelar'>Cancelar</button>
     </div>
+    <form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method = "post">
+    <button class="logout" type="submit" name='Volver'>Volver</button>
+    </form>
 </form>
 

@@ -1,3 +1,4 @@
+    
 <h2>Editar perfil</h2>
 
 <form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method = "post">
@@ -25,4 +26,7 @@
                 <button class="logout" type="submit" name='Cancelar'>Cancelar</button>
                 <button class="logout" type="submit" name='CambiarPassword'>Cambiar Contraseña</button>
     </fieldset>
+    <form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method = "post">
+    <button class="logout" type="submit" name='Volver'>Volver</button>
+    </form>
 </form>
